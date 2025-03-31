@@ -38,7 +38,7 @@ export function CatAxiosAsyncAwait() {
 
       <h1 className='text-blue-600 font-bold text-2xl'>Kitty Said...</h1>
       <p className='italic font-semibold mt-2'>"{catFact}"</p>
-      <img src="/cat.jpg" alt="cat" className='w-50 h-40 rounded-2xl mt-4'/>
+      <img src="./cat.jpg" alt="cat" className='w-50 h-40 rounded-2xl mt-4'/>
       <button onClick={getMoreFact} className='bg-teal-500 text-white rounded px-20 py-1 mt-4 hover:bg-teal-800 hover:cursor-pointer'>more</button>
     </div>
   )
