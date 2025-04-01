@@ -37,7 +37,7 @@ export function CatStuff() {
                 {loading && <p>loading...</p>}
                 {error && <p>There is an error.</p>}
                 <p className='italic font-semibold mt-2 text-center '>"{catFact}"</p>
-                <img src="../../public/cat.jpg" alt="cat" className='w-50 h-40 rounded-2xl mt-4'/>
+                <img src="../cat.jpg" alt="cat" className='w-50 h-40 rounded-2xl mt-4'/>
                 <button onClick={catButton} className="w-50 py-2 mt-4 bg-[#43a591] text-white font-bold rounded-4xl hover:bg-[#477a70fe] hover:cursor-pointer">More Cat Words</button>
             </div>
         </div>

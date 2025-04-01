@@ -1,4 +1,3 @@
-import { CatAxiosAsyncAwait } from "./components/CatAxiosAsyncAwait";
 import { CatStuff } from "./components/CatStuff";
 
 export default function App() {
